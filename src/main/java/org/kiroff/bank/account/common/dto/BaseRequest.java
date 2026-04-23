@@ -9,6 +9,6 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BaseResponse {
-    private  String message;
+public class BaseRequest {
+    private  String id;
 }
